@@ -1,5 +1,8 @@
 {
+  "buildCommand": "cd life-admin-os && npm install && npm run build",
+  "outputDirectory": "life-admin-os/dist",
+  "framework": "vite",
   "rewrites": [
-    { "source": "/(.*)", "destination": "/" }
+    { "source": "/(.*)", "destination": "/index.html" }
   ]
 }
